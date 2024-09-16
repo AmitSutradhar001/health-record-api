@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2024-09-01T08:00:00.000Z",
+    "bodyTemperature": 36.5,
+    "bloodPressure": "120/80",
+    "heartRate": 70
+  },
+  {
+    "date": "2024-09-02T09:15:00.000Z",
+    "bodyTemperature": 37.0,
+    "bloodPressure": "115/75",
+    "heartRate": 72
+  },
+  {
+    "date": "2024-09-03T10:30:00.000Z",
+    "bodyTemperature": 36.8,
+    "bloodPressure": "130/85",
+    "heartRate": 75
+  },
+  {
+    "date": "2024-09-04T11:45:00.000Z",
+    "bodyTemperature": 36.7,
+    "bloodPressure": "125/80",
+    "heartRate": 68
+  },
+  {
+    "date": "2024-09-05T13:00:00.000Z",
+    "bodyTemperature": 37.1,
+    "bloodPressure": "140/90",
+    "heartRate": 78
+  },
+  {
+    "date": "2024-09-06T14:15:00.000Z",
+    "bodyTemperature": 36.6,
+    "bloodPressure": "110/70",
+    "heartRate": 74
+  },
+  {
+    "date": "2024-09-07T15:30:00.000Z",
+    "bodyTemperature": 37.2,
+    "bloodPressure": "120/85",
+    "heartRate": 76
+  },
+  {
+    "date": "2024-09-08T16:45:00.000Z",
+    "bodyTemperature": 36.9,
+    "bloodPressure": "135/88",
+    "heartRate": 80
+  },
+  {
+    "date": "2024-09-09T18:00:00.000Z",
+    "bodyTemperature": 36.4,
+    "bloodPressure": "125/82",
+    "heartRate": 70
+  },
+  {
+    "date": "2024-09-10T19:15:00.000Z",
+    "bodyTemperature": 37.3,
+    "bloodPressure": "130/86",
+    "heartRate": 73
+  }
+]
