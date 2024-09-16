@@ -31,3 +31,5 @@ This project is a RESTful API for managing Health records, built with Node.js an
 - **GET /health-records/:id**: Retrieve a specific health record by ID.
 - **PUT /health-records/:id**: Update a health record.
 - **DELETE /health-records/:id**: Delete a health record.
+
+  -_You can test this api on postman using **Health.postman_collection.json** file_

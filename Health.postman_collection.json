@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "bf399000-9a92-481e-9012-b9fc3245dc86",
+		"name": "Health",
+		"description": "This is an API for managing health records.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28456740"
+	},
+	"item": [
+		{
+			"name": "get all records",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/health-records",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health-records"
+					]
+				},
+				"description": "This will provide all the health records in the database."
+			},
+			"response": []
+		},
+		{
+			"name": "add new record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"date\": \"2024-10-01T08:00:00.000Z\",\r\n    \"bodyTemperature\": 42.6,\r\n    \"bloodPressure\": \"120/80\",\r\n    \"heartRate\": 70\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/health-records",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health-records"
+					]
+				},
+				"description": "It will create a new health record in the database."
+			},
+			"response": []
+		},
+		{
+			"name": "gat record by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/health-records/66e86cef8555936ae49212cd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health-records",
+						"66e86cef8555936ae49212cd"
+					]
+				},
+				"description": "It will provide a single health record using its ID."
+			},
+			"response": []
+		},
+		{
+			"name": "update a record",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"bloodPressure\": \"120/31\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/health-records/66e871b0419d02fd28c62fdc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health-records",
+						"66e871b0419d02fd28c62fdc"
+					]
+				},
+				"description": "It will update an existing record in the database using its ID."
+			},
+			"response": []
+		},
+		{
+			"name": "delete a record",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/health-records/66e871b0419d02fd28c62fdc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health-records",
+						"66e871b0419d02fd28c62fdc"
+					]
+				},
+				"description": "It will delete a record using its ID."
+			},
+			"response": []
+		}
+	]
+}
