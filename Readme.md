@@ -33,3 +33,5 @@ This project is a RESTful API for managing Health records, built with Node.js an
 - **DELETE /health-records/:id**: Delete a health record.
 
   -_You can test this api on postman using **Health.postman_collection.json** file_
+
+6. **This project is already deployed on Render. Go through the Postman JSON documentation, change the URL from localhost to https://health-record-api-1.onrender.com/, and include the endpoint.**
